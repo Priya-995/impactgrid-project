@@ -106,6 +106,7 @@ Even small improvements in response time can significantly impact lives.
 🏥 SDG 3 – Good Health & Well-being
 🏙 SDG 11 – Sustainable Cities & Communities
 🌱 SDG 13 – Climate Action
+
 🚀 Future Scope
 Predictive crisis detection using AI
 Government & NGO integration
@@ -118,7 +119,6 @@ Matching System
 Volunteer Profile
 Case Reporting
 
-(Add screenshots here)
 
 🔗 Links: 
 🌐 Live App: https://impactgrid-project.vercel.app/
