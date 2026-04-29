@@ -47,7 +47,7 @@ const [reasonLoading, setReasonLoading] = useState(false);
     try {
       setReasonLoading(true);
 
-      const res = await fetch("http://localhost:3000/api/gemini/match-reason", {
+      const res = await fetch("https://impactgrid-project-backend.onrender.com/api/gemini/match-reason", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
