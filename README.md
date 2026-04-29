@@ -165,7 +165,7 @@ git clone https://github.com/your-username/impactgrid.git
 cd impactgrid
 
 # Install frontend dependencies
-cd client
+cd impactgrid-frontend
 npm install
 
 # Install backend dependencies
@@ -197,7 +197,7 @@ cd server
 npm run dev
 
 # Start frontend (new terminal)
-cd client
+cd impactgrid-frontend
 npm run dev
 ```
 
@@ -209,7 +209,7 @@ Visit `http://localhost:5173` 🎉
 
 ```
 impactgrid/
-├── client/                  # React + Vite Frontend
+├── impactgrid-frontend/                  # React + Vite Frontend
 │   ├── src/
 │   │   ├── components/      # Reusable UI components
 │   │   ├── pages/           # Dashboard, Cases, Volunteers
@@ -266,28 +266,6 @@ ImpactGrid is designed to compress that gap — through automation, intelligence
 🔲 v2.0  — Native mobile application (React Native)
 🔲 v2.5  — Fully automated decision pipelines with human-in-loop fallback
 ```
-
----
-
-## 🤝 Contributing
-
-We welcome contributors who care about technology for good.
-
-```bash
-# Fork the repo
-# Create your feature branch
-git checkout -b feature/your-feature-name
-
-# Commit changes
-git commit -m "feat: add your feature"
-
-# Push and open a PR
-git push origin feature/your-feature-name
-```
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting PRs.
-
----
 
 ## 📄 License
 
